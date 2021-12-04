@@ -15,5 +15,8 @@ git remote add origin https://github.com/victor-moreno/git-tutorial
 # verifies the new remote URL
 git remote -v
 
-git push
+# upload to github
+git push -u origin main
+
+
 
