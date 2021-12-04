@@ -4,3 +4,15 @@ git init -b main
 # stage & first commit
 git add . && git commit -m "initial commit"
 
+# setup github
+gh auth login
+gh repo create --public --source=.
+
+#  
+# sets the new remote
+git remote add origin https://github.com/victor-moreno/git-tutorial
+
+# verifies the new remote URL
+$ git remote -v
+
+
