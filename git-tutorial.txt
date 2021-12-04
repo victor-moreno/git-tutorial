@@ -13,6 +13,7 @@ gh repo create --public --source=.
 git remote add origin https://github.com/victor-moreno/git-tutorial
 
 # verifies the new remote URL
-$ git remote -v
+git remote -v
 
+git push
 
