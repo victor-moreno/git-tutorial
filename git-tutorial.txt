@@ -1,0 +1,6 @@
+# init local git repo with name main
+git init -b main
+
+# stage & first commit
+git add . && git commit -m "initial commit"
+
