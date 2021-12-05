@@ -11,11 +11,11 @@ git log		shows a list of all previous commits
 
 git reset HEAD <filename> 		Unstages file changes in the staging area.
 git reset <commit_SHA> 			Resets to a previous commit in your commit history.
-git checkout HEAD <filename>	Discards changes in the working directory.
+git checkout HEAD <filename>		Discards changes in the working directory.
 
 
-git branch						which branch am I on?
-git branch <new_branch>			create new_branch
+git branch				which branch am I on?
+git branch <new>			create new branch
 git branch -m <old> <new>		rename branch from old to new
 git branch -c <old> <new>		copy branch from old to new
 
@@ -32,8 +32,8 @@ git branch -d <new_branch>		delete new_branch that was merged -D to force delete
 
 
 
-git remote -v					show name of origin repo
-git fetch						get changes with origin (without merging them)
+git remote -v				show name of origin repo
+git fetch				get changes with origin (without merging them)
 git merge origin/master			merge remote changes into current repo
 
 workflow:
